@@ -36,20 +36,20 @@ namespace Lista2PR2Emanuela
 
             //Atividade 2
 
-            //int ano;
+           // int ano;
 
-            //Console.WriteLine("Digite o ano do seu nascimento: ");
-            //ano = int.Parse(Console.ReadLine());  //Lê o numero
+           // Console.WriteLine("digite o ano do seu nascimento: ");
+           // ano = int.Parse(Console.ReadLine());  //lê o numero
 
 
-            //if (ano <= 2007 )
+           // if (ano <= 2007 )
 
-            // Console.WriteLine("Você pode votar ");
+           // Console.WriteLine("você pode votar ");
 
-            //else
+           // else
 
-            // Console.WriteLine("Você não pode votar");
-            //    Console.ReadKey();  //tela preta
+            // Console.WriteLine("você não pode votar");
+             //Console.ReadKey();  //tela preta
 
             //-------------------------------------------------------------------------------------------------------------------------------------
 
@@ -96,6 +96,15 @@ namespace Lista2PR2Emanuela
 
             //delta = quadrado - 4 * a * c;
 
+            //if(delta == 0)
+              //  Console.WriteLine("Não tem raiz");
+
+            //else if (delta > 0)
+                //Console.WriteLine("Tem raiz");
+
+            //else
+                //Console.WriteLine("Tem duas raizes");
+
             //raiz1 =(float) (-b + Math.Sqrt(delta) )/ (2 * a);
             //raiz2 =(float) (-b - Math.Sqrt(delta)) / (2 * a);
 
@@ -108,33 +117,57 @@ namespace Lista2PR2Emanuela
 
             //Atividade 5
 
-            int n;
+             int num;
+
+             Console.WriteLine("Digite um número inteiro ");
+             num = int.Parse(Console.ReadLine());
+
+             if ((num % 3) == 0)
+             Console.WriteLine("Seu número é divisel por 3");
+
+             else if ((num % 5) == 0)
+             Console.WriteLine("Seu número é divisel por 5");
+
+             if((num % 3) == 0) && ((num % 5) == 0)
+                    Console.WriteLine("Seu número é divisivel por ambos");
+
+             else
+                 Console.WriteLine("Seu numero nao e divisel nem por 3 e nem por 5");
+
+               Console.ReadKey();
 
 
             //---------------------------------------------------------------------------------------------------------------------------------------------
 
             //Atividade 6
 
-            float ang1, ang2, ang3;
+            //float ang1, ang2, ang3;
 
-            Console.WriteLine("Digite angulo 1 do seu triângulo: ");
-            ang1 = float.Parse(Console.ReadLine());  //Lê o numero
+          //Console.WriteLine("Digite angulo 1 do seu triângulo: ");
+           //ang1 = float.Parse(Console.ReadLine());  //Lê o numero
 
-            Console.WriteLine("Digite o angulo 2 do seu triângulo: ");
-            ang2 = float.Parse(Console.ReadLine());  //Lê o numero
+            //Console.WriteLine("Digite o angulo 2 do seu triângulo: ");
+           // ang2 = float.Parse(Console.ReadLine());  //Lê o numero
 
-            Console.WriteLine("Digite o angulo 3 do seu triângulo: ");
-            ang3 = float.Parse(Console.ReadLine());  //Lê o numero
+           // Console.WriteLine("Digite o angulo 3 do seu triângulo: ");
+           // ang3 = float.Parse(Console.ReadLine());  //Lê o numero
 
-            if ()
-                Console.WriteLine("Este triangulo é equilátero");
+           // if ((ang1 == 90) || (ang2 == 90) || (ang3 == 90))
+           //      Console.WriteLine("Seu triângulo é um triângulo retângulo ");
 
-            else if (tri1 != tri2 && tri2 != tri3 && tri3 != tri1)
-                Console.WriteLine("Este triangulo é escaleno");
+           // else if ((ang1 > 90) || (ang2 > 90) || (ang3 > 90))
+           //    Console.WriteLine("Seu triângulo é um triângulo obtusângulo ");
+             
+          //  else
+           //    Console.WriteLine("É um triângulo de três ângulos agudos");
 
-            else
-                Console.WriteLine("este triangulo é isosceles");
-            Console.ReadKey();
+
+          //  Console.ReadKey();
+
+            //----------------------------------------------------------------------------------------------------------------------------------------
+
+            //Atividade 7
+
 
 
 
