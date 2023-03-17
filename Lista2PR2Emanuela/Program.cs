@@ -117,24 +117,25 @@ namespace Lista2PR2Emanuela
 
             //Atividade 5
 
-             int num;
+             //int num;
 
-             Console.WriteLine("Digite um número inteiro ");
-             num = int.Parse(Console.ReadLine());
+           // Console.WriteLine("Digite um número inteiro ");
+            // num = int.Parse(Console.ReadLine());
 
-             if ((num % 3) == 0)
-             Console.WriteLine("Seu número é divisel por 3");
+             //if ((num % 3) == 0) { 
+           //  Console.WriteLine("Seu número é divisel por 3");
 
-             else if ((num % 5) == 0)
-             Console.WriteLine("Seu número é divisel por 5");
+           //  }  else if ((num % 5) == 0) { 
+           //  Console.WriteLine("Seu número é divisel por 5");
 
-             if((num % 3) == 0) && ((num % 5) == 0)
-                    Console.WriteLine("Seu número é divisivel por ambos");
+            // } if((num % 3) == 0) && ((num % 5) == 0){ 
+            //        Console.WriteLine("Seu número é divisivel por ambos");
 
-             else
-                 Console.WriteLine("Seu numero nao e divisel nem por 3 e nem por 5");
+             //} else { 
+             //   Console.WriteLine("Seu numero nao e divisel nem por 3 e nem por 5");
+            // }
 
-               Console.ReadKey();
+               //Console.ReadKey();
 
 
             //---------------------------------------------------------------------------------------------------------------------------------------------
@@ -168,9 +169,109 @@ namespace Lista2PR2Emanuela
 
             //Atividade 7
 
+            //int a, b, c;
+
+           // Console.WriteLine("qual o valor do numero ");
+            //a = int.Parse(Console.ReadLine());
+           
+           // Console.WriteLine("qual o valor do numero ");
+           // b = int.Parse(Console.ReadLine());
+           
+            //Console.WriteLine("qual o valor do numero ");
+           // c = int.Parse(Console.ReadLine());
+
+            //if (a < b && b < c) 
+             //  Console.WriteLine(a +" "+ b+" " + c);
+
+           // else if (a < b  && b > c)
+              // Console.WriteLine(a + " " + c + " "+b);
+           
+           // else if (b < a  && a < c)
+              // Console.WriteLine(b + " " + a + " "+c);
+            
+          //  else if (b < a  && a > c)
+              // Console.WriteLine(b + " " + c + " "+a);
+           
+           // else if (c < a  && a < b)
+              // Console.WriteLine(c + " " + a + " "+b);
+          
+           // else if (c < a  && a > c)
+              // Console.WriteLine(c + " " + b + " "+a);
+
+           // Console.ReadKey();
+
+            //-----------------------------------------------------------------------------------------------------------------------------
+
+            //Atividade 8
+
+           // int ano;
+
+            // Console.WriteLine("escreve um ano: ");
+            // ano = int.Parse(Console.ReadLine());
+
+            // if (ano % 4 == 0)
+            // {
+            //     Console.WriteLine("O ano é bissexto");
+            // }
+            // else
+            // {
+            //     Console.WriteLine("O ano não é bissexto");
+            // }
+
+            //--------------------------------------------------------------------------------------------------------------------------------
+
+             // Atividade 9
+
+             //double a, b, r;
+             //char apli;
+
+           // Console.WriteLine("escreve um valor para a: ");
+           //  a = double.Parse(Console.ReadLine());
+           // Console.WriteLine("escreve um valor para b: ");
+          //   b = double.Parse(Console.ReadLine());
+           // Console.WriteLine("escreve uma operação: ");
+           //  apli = char.Parse(Console.ReadLine());
+
+           // if (apli == '+')
+          //  {
+          //      Console.WriteLine(a + b);
+          //  }
+           //  else if (apli == '-')
+           //  {
+           //      Console.WriteLine(a - b);
+           //  }
+           //  else if (apli == '*')
+           //  {
+           //      Console.WriteLine(a * b);
+           //  }
+         //    else if (apli == '/')
+         //    {
+           //     Console.WriteLine(a / b);
+         //    }
+          
+            //-----------------------------------------------------------------------------------------------------------------------------------------
+
+            // Atividade 10
+
+            // Na linguagem C#, é possível gerar números aleatórios usando a classe Random. Esta classe permite gerar números inteiros e reais aleatórios usando diferentes métodos.
+            // Para gerar números inteiros aleatórios em C#, basta criar uma instância da classe Random e chamar o método Next() da seguinte forma:
+
+            // Aleatório random = new Random();
+            // int randomInt = random.Next();
+
+            // Para gerar números aleatórios reais em C#, é possível usar o método NextDouble(), que retorna um número aleatório entre 0 e 1, Se quiser gerar um número aleatório dentro de um intervalo específico, basta multiplicar o resultado pelo tamanho do intervalo e somar o valor mínimo
+
+            // Aleatório random = new Random();
+            // double randomDouble = Random.NextDouble();
+
+            // Em ambos os casos, é importante criar uma única instância da classe Random e reutilizá-la para gerar números aleatórios diferentes. Isso porque, se você criar várias instâncias em sucessão rápida, elas podem gerar números semelhantes, tornando a distribuição menos aleatória.
 
 
 
+
+        }
+    }
+}
 
         }
     }
